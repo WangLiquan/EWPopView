@@ -20,7 +20,7 @@ struct ScreenInfo {
         return isIphoneX() ? 83 : 49;
     }
 }
-//popView三种Type
+//popView两种Type,通过修改type来实现不同样式
 enum popViewType{
     case left//概况
     case right//发布
