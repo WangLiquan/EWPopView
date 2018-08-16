@@ -21,7 +21,6 @@ extension UIView {
         UIView.animate(withDuration: time, animations: {
             self.alpha = 1
         }) { (finished) in
-
         }
     }
 

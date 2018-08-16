@@ -1,5 +1,5 @@
 # popView
 类微博弹出动画
 
-![image](http://github.com/WangLiquan/popView/raw/master/images/demonstration.gif)
+![效果图预览](https://github.com/WangLiquan/popView/raw/master/images/demonstration.gif)
 
