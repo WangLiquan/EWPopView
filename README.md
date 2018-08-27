@@ -8,3 +8,6 @@ view消失时:背景渐变消失,view内部button依次向上方弹出.
 
 ![效果图预览](https://github.com/WangLiquan/popView/raw/master/images/demonstration.gif)
 
+自己学习一直闭门造车,欢迎各位同僚与我交流.
+![微信](https://github.com/WangLiquan/popView/raw/master/images/wechat.jpg)
+添加请备注github
