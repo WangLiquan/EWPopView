@@ -1,6 +1,6 @@
 # EWPopView
 <h3>类微博弹出动画</h3>
-<br>
+
 # 实现效果:
 
 view弹出时:背景渐变展示,有毛玻璃效果.view内部的button依次从上方弹到指定frame.
