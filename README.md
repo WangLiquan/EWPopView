@@ -15,4 +15,4 @@ view消失时:背景渐变消失,view内部button依次向上方弹出.
 <br>
 <br>
 个人新建一个上海程序员交流群,希望与大家多认识多交流,有兴趣请扫码加群.<br>
-<img src="https://github.com/WangLiquan/popView/raw/master/images/qq.png" width="30%" height="30%"><br>
+<img src="https://github.com/WangLiquan/popView/raw/master/images/qq.jpg" width="30%" height="30%"><br>
