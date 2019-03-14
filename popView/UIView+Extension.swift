@@ -11,26 +11,26 @@ import UIKit
 
 extension UIView {
     func addSubViews(_ views:[UIView]) {
-        for v in views {
-            self.addSubview(v)
+        for view in views {
+            self.addSubview(view)
         }
     }
 
-    func fadeInWithTime(time:TimeInterval){
+    func fadeInWithTime(time:TimeInterval) {
         self.alpha = 0
         UIView.animate(withDuration: time, animations: {
             self.alpha = 1
-        }) { (finished) in
+        }) { (_) in
         }
     }
 
-    func fadeOutWithTime(time:TimeInterval){
+    func fadeOutWithTime(time:TimeInterval) {
         self.alpha = 1
         UIView.animate(withDuration: time, animations: {
             self.alpha = 0
-        }) { (finished) in
+        }) { (_) in
             self.removeFromSuperview()
         }
     }
-    
+
 }

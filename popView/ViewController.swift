@@ -36,14 +36,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         drawMyView()
     }
-    func drawMyView(){
+    func drawMyView() {
         self.view.addSubview(backImageView)
         backImageView.frame = self.view.frame
         self.view.addSubview(topPopButton)
         self.view.addSubview(bottomPopButton)
     }
 
-    @objc func onClickPopButton(_ sender: UIButton){
+    @objc func onClickPopButton(_ sender: UIButton) {
         switch sender.tag {
         case 1:
             popViewWithType(type:.left)
@@ -54,7 +54,7 @@ class ViewController: UIViewController {
         }
     }
 
-    private func popViewWithType(type:popViewType){
+    private func popViewWithType(type: PopViewType) {
         let popView = CRPopView.init(frame: self.view.frame,type:type)
         switch type {
         case .left:
@@ -75,12 +75,9 @@ class ViewController: UIViewController {
         popView.showToView(view: self.view)
     }
 
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
 
-
 }
-
